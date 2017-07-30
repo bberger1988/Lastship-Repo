@@ -33,7 +33,7 @@
 	</extension>
 </addon>
 
-<addon id="script.lastship.artwork" version="1.0.5" name="lastship Artwork" provider-name="Lastship">
+<addon id="script.lastship.artwork" version="1.0.5" name="Lastship Artwork" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -45,7 +45,7 @@
 	</extension>
 </addon>
 
-<addon id="script.lastship.metadata" version="1.0.0" name="lastship Metadata" provider-name="Lastship">
+<addon id="script.lastship.metadata" version="1.0.0" name="Lastship Metadata" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
