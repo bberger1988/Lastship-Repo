@@ -14,8 +14,8 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">lastship</summary>
-		<description lang="de">Wir suchen Entwickler. Bitte besuche [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] für Unterstützung und Fragen zu lastship! lastship FAQ bitte lesen. Beachte dabei, dass lastship nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde</description>
+		<summary lang="en">Lastship</summary>
+		<description lang="de">Wir suchen Entwickler. Bitte besuche [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] für Unterstützung und Fragen zu Lastship. Lastship FAQ bitte lesen. Beachte dabei, dass Lastship nicht offizieller Teil des Media Players ist, den Du gerade verwendest und daher nicht von den offiziellen Support-Kanälen abgedeckt wird. Dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt. Es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung, die dem System hinzugefügt wurde</description>
 		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
 		<platform>all</platform>
 		<forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=5</forum>
@@ -39,8 +39,8 @@
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the lastship Addon</summary>
-		<description>Themes for lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Themes for the Lastship Addon</summary>
+		<description>Themes for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -51,8 +51,8 @@
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the lastship Addon</summary>
-		<description>Metadata for lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Metadata for the Lastship Addon</summary>
+		<description>Metadata for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
