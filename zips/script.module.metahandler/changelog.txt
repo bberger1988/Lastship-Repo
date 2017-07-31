@@ -1,6 +1,7 @@
-- Updated API Keys
+- Updated API keys
 
-- Optional Keys in Settings
+- Optional personal keys in Settings
 
 - Fixed Search Behaviour
 
+- Fixed API key reference
