@@ -1,4 +1,4 @@
-- Updated API keys
+- Updated API keys for TMDB & TheTVDB
 
 - Optional personal keys in Settings
 
