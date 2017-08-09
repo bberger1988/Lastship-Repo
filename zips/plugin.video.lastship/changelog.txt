@@ -1,3 +1,9 @@
+[B]1.1.3[/B]
+- Dayt update
+- Onseries, Kingmovies fixed (Englische Seiten)
+- Möglichkeit,Filme, die vor weniger als 3 Monaten herausgekommen sind, auszuschließen 
+ (wirkt sich nicht auf die Filmlisten von Trakt und IMDB aus, ebensowenig auf die Filmsuche und den Bereich "In den Kinos)
+
 [B]1.1.2[/B]
 - New fanart.tv/TMDB API keys
 
