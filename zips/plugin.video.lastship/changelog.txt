@@ -1,18 +1,24 @@
+[B]1.1.4[/B]
+- Add multi-scraper "alluc.ee" for german and english sources
+  (API-key from http://accounts.alluc.com/ is required and can be entered in the "accounts" settings tab)
+- Some tweaks on the settings display
+- Move Library scaper option out of the "english" section & add german translation
+- Fix HDFilme.tv
+
 [B]1.1.3[/B]
 - Dayt update
-- Onseries, Kingmovies fixed (Englische Seiten)
-- Möglichkeit,Filme, die vor weniger als 3 Monaten herausgekommen sind, auszuschließen 
- (wirkt sich nicht auf die Filmlisten von Trakt und IMDB aus, ebensowenig auf die Filmsuche und den Bereich "In den Kinos)
+- Onseries, Kingmovies fixed
+- New setting to exclude movies released within the last 90 days (except in Lists, In Theatres and Search)
 
 [B]1.1.2[/B]
-- New fanart.tv/TMDB API keys
+- New API keys for fanart.tv and TMDB
 
 [B]1.1.1[/B]
 - Fix pubfilm.to
 - Add option to show unaired (future) seasons and episodes
 - Change addon name to "Lastship" (uppercase)
- 
- [B]1.1.0[/B]
+
+[B]1.1.0[/B]
 - Remove unfunctional english providers; add new ones (Thx petemei)
 - Update german translation
 - Remove all non-DE/EN-sources 
