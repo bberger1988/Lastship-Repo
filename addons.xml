@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.lastship" version="1.1.5" name="Lastship" provider-name="Lastship">
+<addon id="plugin.video.lastship" version="1.1.6" name="Lastship" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.lastship" version="1.0.1" />
@@ -27,9 +27,7 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Fix dizigold, seriesonline, streamlord
-- New project API keys for TheTVDB.com and fanart.tv
-- Make passwords and user-keys visible in settings and virtual keyboard</news>
+		<news>-Tweak Alluc scraper</news>
 	</extension>
 </addon>
 
