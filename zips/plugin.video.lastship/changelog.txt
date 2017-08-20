@@ -1,9 +1,7 @@
-[B]1.1.7[/B]
-- Add gostream
-- steamflix URL Update
-
-- movies.py
-- player.py
+[B]1.1.7.1[/B]
+- Add gostream provider
+- Improve Trakt watched states sync
+- Tweak fanart.tv calls for movie artwork
 
 [B]1.1.6[/B]
 - Tweak Alluc scraper
