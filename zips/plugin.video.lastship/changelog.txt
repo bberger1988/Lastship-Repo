@@ -1,3 +1,10 @@
+[B]1.1.7[/B]
+- Add gostream
+- steamflix URL Update
+
+- movies.py
+- player.py
+
 [B]1.1.6[/B]
 - Tweak Alluc scraper
 
