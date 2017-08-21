@@ -1,3 +1,8 @@
+[B]1.1.8[/B]
+- Remove provider Pmovies and Watch5s
+- Fix Kingmovies
+- Fix Streamlord
+
 [B]1.1.7.1[/B]
 - Add gostream provider
 - Improve Trakt watched states sync
