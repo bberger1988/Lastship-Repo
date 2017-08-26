@@ -1,6 +1,13 @@
+[B]1.1.9[/B]
+- Fix Sezonlukdizi (credits to weekendsource)
+- Fix german translation
+- Fix alphabetical sort order in EN provider settings
+- Provider MeinKino removed
+- Bugfix in settings ("New Episodes" wasn't visible)
+
 [B]1.1.8[/B]
-- Remove provider Pmovies and Watch5s
-- Fix Kingmovies
+- Remove provider pmovies and watch5s
+- Fix Kongmovies
 - Fix Streamlord
 
 [B]1.1.7.1[/B]
