@@ -1,3 +1,12 @@
+[B]1.1.13[/B]
+- Fix Kinoking search
+- Fix MovieTown search
+- Add KinoKing TV shows
+- Fix KinoW
+- Add MovieTown TV shows
+- Check stream quality in MovieTown scraper
+
+
 [B]1.1.12[/B]
 - Fix for SeriesEver not pulling all links
 - Sort Trakt Progress by recently watched rather than airdate
