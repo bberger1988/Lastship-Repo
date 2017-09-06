@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.lastship.debug.log" name="Lastship Kodi Log Uploader" version="2" provider-name="Lastship">
+<addon id="script.lastship.debug.log" name="Lastship Kodi Log Uploader" version="2.1" provider-name="Lastship">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
     </requires>

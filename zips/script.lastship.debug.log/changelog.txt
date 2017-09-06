@@ -1,3 +1,6 @@
+[B]Version 2.1[/B]
+- Remove setting for broken uploader
+
 [B]Version 2[/B]
 - Rename Addon
 - Add german translation
