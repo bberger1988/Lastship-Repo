@@ -1,4 +1,6 @@
 CHANGELOG
+1.0 (Lastship Team)
+- Rebrand and change addon ID
 
 0.1.20.2 (Lastship Team)
 - Hardcode Lastship TV library update as option for idle action
