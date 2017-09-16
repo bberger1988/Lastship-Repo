@@ -4,6 +4,7 @@
 #Only Include these specific directories and subdirectories:
 !zips/
 !zips/*/
+!.github/
 
 # Windows image file caches
 Thumbs.db
