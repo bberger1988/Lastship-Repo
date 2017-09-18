@@ -1,163 +1,175 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.lastship" version="1.1.15" name="Lastship" provider-name="Lastship">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.lastship" version="1.0.1" />
-		<import addon="script.lastship.artwork" version="1.0.6" />
-		<import addon="script.lastship.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="lastship.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Lastship</summary>
-		<description lang="de">Wir suchen Entwickler. Bitte besuche [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] für Unterstützung und Fragen zu Lastship. Lastship FAQ bitte lesen. Beachte dabei, dass Lastship kein offizieller Teil des Media Players ist, den Du gerade verwendest und daher nicht von den offiziellen Support-Kanälen abgedeckt wird. Dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt. Es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung, die dem System hinzugefügt wurde.</description>
-		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-		<platform>all</platform>
-		<forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=28</forum>
-		<source>https://github.com/lastship/plugin.video.lastship/</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>- Added Vidzella to HQ hosters
-- Provider Foxx fixed
-- Provider Movie2k-ac stream quality check improved
-- SerienStream search fixed</news>
-	</extension>
-</addon>
+	<addon id="plugin.video.lastship" version="1.1.16" name="Lastship" provider-name="Lastship">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0" />
+			<import addon="repository.lastship" version="1.0.1" />
+			<import addon="script.lastship.artwork" version="1.0.4" />
+			<import addon="script.lastship.metadata" version="1.0.0" />
+			<import addon="script.module.urlresolver" version="3.0.0" />
+			<import addon="script.module.metahandler" version="1.0.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="lastship.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="startup" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Lastship</summary>
+			<description lang="de">Wir suchen Entwickler. Bitte besuche [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] für Unterstützung und Fragen zu Lastship. Lastship FAQ bitte lesen. Beachte dabei, dass Lastship kein offizieller Teil des Media Players ist, den Du gerade verwendest und daher nicht von den offiziellen Support-Kanälen abgedeckt wird. Dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt. Es handelt sich hierbei lediglich um eine Drittanbieter-Anwendung, die dem System hinzugefügt wurde.</description>
+			<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+			<platform>all</platform>
+			<forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=28</forum>
+			<source>https://github.com/lastship/plugin.video.lastship</source>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+				<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+			</assets>
+			<news lang="de">- Neuer Provider : CMovies (en)
+	- Provider Watch5s wieder integriert
+	- Provider MoviesHD, MyDDL, XMovies und WatchSeries aktualisiert
+	- Provider KingMovies, GoStream, OpenMovies und Movie25 gefixt
+	- Neue Option zur Limitierung der Anzahl gesuchter Alluc-Links
+	- Anzahl der Alluc API-Calls auf Minimum reduziert
+	- Trakt-API-Aufrufe für den TV-Sendekalender optimiert
+	- Neue Senderlogos</news>
+			<news lang="en">- New provider : CMovies (en)
+	- Provider Watch5s integrated again
+	- Provider MoviesHD, MyDDL and WatchSeries updated
+	- Provider KingMovies, GoStream, OpenMovies and Movie25 fixed
+	- New setting to limit the number of Alluc links getting searched
+	- Number of Alluc API-calls minimized
+	- Optimized Trakt Api calls for the TV calendar
+	- New TV network logos</news>
+		</extension>
+	</addon>
 
-<addon id="repository.lastship" name="Lastship Repository" version="1.0.1" provider-name="Lastship">
-	<extension point="xbmc.addon.repository" name="Lastship Repository">
-	<dir>
-		<info compressed="false">https://github.com/lastship/lastshipRepo/raw/master/addons.xml</info>
-		<checksum>https://github.com/lastship/lastshipRepo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/lastship/lastshipRepo/raw/master/zips/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://github.com/lastship/lastship-common/raw/master/addons.xml</info>
-		<checksum>https://github.com/lastship/lastship-common/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/lastship/lastship-common/raw/master/zips/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Lastship Repository</summary>
-		<description lang="en">Lastship Repository</description>
-		<platform>all</platform>
-		<forum>http://lastship.square7.ch/forum/</forum>
-	</extension>
-</addon>
+	<addon id="repository.lastship" name="Lastship Repository" version="1.0.1" provider-name="Lastship">
+		<extension point="xbmc.addon.repository" name="Lastship Repository">
+		<dir>
+			<info compressed="false">https://github.com/lastship/lastshipRepo/raw/master/addons.xml</info>
+			<checksum>https://github.com/lastship/lastshipRepo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/lastship/lastshipRepo/raw/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/lastship/lastship-common/raw/master/addons.xml</info>
+			<checksum>https://github.com/lastship/lastship-common/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/lastship/lastship-common/raw/master/zips/</datadir>
+		</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Lastship Repository</summary>
+			<description lang="en">Lastship Repository</description>
+			<platform>all</platform>
+			<forum>http://lastship.square7.ch/forum/</forum>
+		</extension>
+	</addon>
 
-<addon id="script.lastship.artwork" version="1.0.6" name="Lastship Artwork" provider-name="Lastship">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Lastship Addon</summary>
-		<description>Themes for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
+	<addon id="script.lastship.artwork" version="1.0.6" name="Lastship Artwork" provider-name="Lastship">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0"/>
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Themes for the Lastship Addon</summary>
+			<description>Themes for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 
-<addon id="script.lastship.debug.log" name="Lastship Kodi Log Uploader" version="2.1" provider-name="Lastship">
-	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Upload Debug Logs to Shareable Location</summary>
-		<summary lang="de">Debug-Logs zum Teilen hochladen</summary>
-		<description lang="en">This add-on gives you the ability to upload your Kodi error logs to a shareable location, and can also optionally email you the link to your logs. Before you get started, be sure to Toggle ON the “Enable debug logging” function under the "Settings -> System -> Logging" menu within Kodi.</description>
-		<description lang="de">Dieses Addon ermöglicht es Ihnen, Kodi-Logs auf einen Server im Internet zu laden und schickt Ihnen wenn gewünscht einen Link dorthin per Email. Bevor Sie den Fehler reproduzieren, schalten Sie “Debug-Logging aktivieren” im Kodi-Menü "Einstellungen -> System -> Logging" ein.</description>
-		<language></language>
-		<platform>all</platform>
-		<source>https://github.com/lastship/script.lastship.debug.log</source>
-		<news>- Addon renamed
-- Translated to German</news>
-	</extension>
-</addon>
+	<addon id="script.lastship.debug.log" name="Lastship Kodi Log Uploader" version="2.1" provider-name="Lastship">
+		<requires>
+			<import addon="xbmc.python" version="2.20.0"/>
+		</requires>
+		<extension point="xbmc.python.script" library="default.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Upload Debug Logs to Shareable Location</summary>
+			<summary lang="de">Debug-Logs zum Teilen hochladen</summary>
+			<description lang="en">This add-on gives you the ability to upload your Kodi error logs to a shareable location, and can also optionally email you the link to your logs. Before you get started, be sure to Toggle ON the “Enable debug logging” function under the "Settings -> System -> Logging" menu within Kodi.</description>
+			<description lang="de">Dieses Addon ermöglicht es Ihnen, Kodi-Logs auf einen Server im Internet zu laden und schickt Ihnen wenn gewünscht einen Link dorthin per Email. Bevor Sie den Fehler reproduzieren, schalten Sie “Debug-Logging aktivieren” im Kodi-Menü "Einstellungen -> System -> Logging" ein.</description>
+			<language></language>
+			<platform>all</platform>
+			<source>https://github.com/lastship/script.lastship.debug.log</source>
+			<news>- Addon renamed
+	- Translated to German</news>
+		</extension>
+	</addon>
 
-<addon id="script.lastship.metadata" version="1.0.0" name="Lastship Metadata" provider-name="Lastship">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Lastship Addon</summary>
-		<description>Metadata for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
+	<addon id="script.lastship.metadata" version="1.0.0" name="Lastship Metadata" provider-name="Lastship">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0"/>
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Metadata for the Lastship Addon</summary>
+			<description>Metadata for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 
-<addon id="script.module.metahandler" 
-	 name="metahandler" 
-	 version="3.0.2" 
-	 provider-name="eldorado, jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.module.addon.common" version="2.0.0"/>
-		<import addon="script.module.myconnpy" version="1.1.6"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-		<description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-		<disclaimer lang="en"></disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<email></email>
-		<source>https://github.com/lastship/script.module.metahandler</source>
-	</extension>
-</addon>
+	<addon id="script.module.metahandler" 
+		 name="metahandler" 
+		 version="3.0.2" 
+		 provider-name="eldorado, jsergio">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.simplejson" version="3.3.0"/>
+			<import addon="script.module.addon.common" version="2.0.0"/>
+			<import addon="script.module.myconnpy" version="1.1.6"/>
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+			<description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+			<disclaimer lang="en"></disclaimer>
+			<language></language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<email></email>
+			<source>https://github.com/lastship/script.module.metahandler</source>
+		</extension>
+	</addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.23" provider-name="tknorris">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Reusable Modules used by several of tknorris's addons</summary>
-	</extension>
-</addon>
+	<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.23" provider-name="tknorris">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">Reusable Modules used by several of tknorris's addons</summary>
+		</extension>
+	</addon>
 
-<addon id="service.lastship.watchdog" name="Lastship Watchdog" version="1.0" provider-name="Lastship">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-	</requires>
-	<extension point="xbmc.service" library="default.py" start="[login|startup]" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en_GB">Lastship Watchdog - he's watching while You sleep</summary>
-		<summary lang="de_DE">Lastship Watchdog - er passt auf, während Du schläfst</summary>
-		<summary lang="uk_UA">Lastship Watchdog - він чатує, поки Ви спите</summary>
-		<description lang="en_GB">This Idle Timer management performs defined actions after an adjusted amount of inactivity time. Those actions are stop playing Audio, Video or TV for example or some actions to execute shutdown variations like suspend, reboot poweroff or hibernate.</description>
-		<description lang="de_DE">Dieser Timer führt vorher definierte Aktionen nach einer einstellbaren Inaktivitätszeit aus. Die Aktionen können zum Beispiel das Stoppen von Audio, Video oder TV-Streams sein, aber auch das Herunterfahren des Systems in verschiedenen Modi (Suspend, Reboot, PowerOff, Bereitschaft) wird angeboten.</description>
-		<description lang="uk_UA">Цей Таймер Простою виконує задані дії, після встановленого часу неактивності. Наприклад, зупиняє відтворення Аудіо, Відео, TV-Потоків чи інші дії (як Призупинення, Вимкнення, Перезавантаження або Гібернація) до Системи.</description>
-		<disclaimer lang="uk_UA">Використовуйте на власний Ризик. Ця Служба, може вступати в конфлікт з іншими сервісами (н.д. Запису).</disclaimer>
-		<disclaimer lang="de_DE">Benutzung auf eigene Gefahr. Dieser Dienst könnte mit anderen Diensten (z.B. Aufnahmedienste) kollidieren.</disclaimer>
-		<disclaimer lang="en_GB">Use at your own risk. This service could conflict to other services (e.g recording services).</disclaimer>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-		<forum>http://lastship.square7.ch/forum/</forum>
-		<website></website>
-		<email></email>
-		<news>Rebranded, new addon ID
-Credits to [I]Birger Jesch[/I] for [B]Sleepy Watchdog[/B]
+	<addon id="service.lastship.watchdog" name="Lastship Watchdog" version="1.0" provider-name="Lastship">
+		<requires>
+			<import addon="xbmc.python" version="2.24.0"/>
+		</requires>
+		<extension point="xbmc.service" library="default.py" start="[login|startup]" />
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en_GB">Lastship Watchdog - he's watching while You sleep</summary>
+			<summary lang="de_DE">Lastship Watchdog - er passt auf, während Du schläfst</summary>
+			<summary lang="uk_UA">Lastship Watchdog - він чатує, поки Ви спите</summary>
+			<description lang="en_GB">This Idle Timer management performs defined actions after an adjusted amount of inactivity time. Those actions are stop playing Audio, Video or TV for example or some actions to execute shutdown variations like suspend, reboot poweroff or hibernate.</description>
+			<description lang="de_DE">Dieser Timer führt vorher definierte Aktionen nach einer einstellbaren Inaktivitätszeit aus. Die Aktionen können zum Beispiel das Stoppen von Audio, Video oder TV-Streams sein, aber auch das Herunterfahren des Systems in verschiedenen Modi (Suspend, Reboot, PowerOff, Bereitschaft) wird angeboten.</description>
+			<description lang="uk_UA">Цей Таймер Простою виконує задані дії, після встановленого часу неактивності. Наприклад, зупиняє відтворення Аудіо, Відео, TV-Потоків чи інші дії (як Призупинення, Вимкнення, Перезавантаження або Гібернація) до Системи.</description>
+			<disclaimer lang="uk_UA">Використовуйте на власний Ризик. Ця Служба, може вступати в конфлікт з іншими сервісами (н.д. Запису).</disclaimer>
+			<disclaimer lang="de_DE">Benutzung auf eigene Gefahr. Dieser Dienst könnte mit anderen Diensten (z.B. Aufnahmedienste) kollidieren.</disclaimer>
+			<disclaimer lang="en_GB">Use at your own risk. This service could conflict to other services (e.g recording services).</disclaimer>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+			<forum>http://lastship.square7.ch/forum/</forum>
+			<website></website>
+			<email></email>
+			<news>Rebranded, new addon ID
+	Credits to [I]Birger Jesch[/I] for [B]Sleepy Watchdog[/B]
 
-Can now be used to look for new episodes 
-and update the Lastship TV library</news>
-	</extension>
-</addon>
+	Can now be used to look for new episodes 
+	and update the Lastship TV library</news>
+		</extension>
+	</addon>
 </addons>
