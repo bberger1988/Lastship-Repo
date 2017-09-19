@@ -49,9 +49,9 @@
 	<addon id="repository.lastship" name="Lastship Repository" version="1.0.1" provider-name="Lastship">
 		<extension point="xbmc.addon.repository" name="Lastship Repository">
 		<dir>
-			<info compressed="false">https://github.com/lastship/lastshipRepo/raw/master/addons.xml</info>
-			<checksum>https://github.com/lastship/lastshipRepo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/lastship/lastshipRepo/raw/master/zips/</datadir>
+			<info compressed="false">https://github.com/lastship/Lastship-Repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/lastship/Lastship-Repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/lastship/Lastship-Repo/raw/master/zips/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://github.com/lastship/lastship-common/raw/master/addons.xml</info>
