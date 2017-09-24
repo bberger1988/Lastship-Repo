@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.lastship" version="1.1.16" name="Lastship" provider-name="Lastship">
+	<addon id="plugin.video.lastship" version="1.2.0" name="Lastship" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0" />
 			<import addon="repository.lastship" version="1.0.1" />
@@ -27,22 +27,22 @@
 				<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 			</assets>
-			<news lang="de">- Neuer Provider : CMovies (en)
-	- Provider Watch5s wieder integriert
-	- Provider MoviesHD, MyDDL, XMovies und WatchSeries aktualisiert
-	- Provider KingMovies, GoStream, OpenMovies und Movie25 gefixt
-	- Neue Option zur Limitierung der Anzahl gesuchter Alluc-Links
-	- Anzahl der Alluc API-Calls auf Minimum reduziert
-	- Trakt-API-Aufrufe für den TV-Sendekalender optimiert
-	- Neue Senderlogos</news>
-			<news lang="en">- New provider : CMovies (en)
-	- Provider Watch5s integrated again
-	- Provider MoviesHD, MyDDL and WatchSeries updated
-	- Provider KingMovies, GoStream, OpenMovies and Movie25 fixed
-	- New setting to limit the number of Alluc links getting searched
-	- Number of Alluc API-calls minimized
-	- Optimized Trakt Api calls for the TV calendar
-	- New TV network logos</news>
+			<news lang="de">- Neuer Provider : Stream.to
+- Provider Sezonlukdizi aktualisiert
+- Neues Addon-Fanart
+- Problem mit der Einstellung "Meine Listen" repariert
+- Provider Flimmerstube/Horrorkino gefixt
+- Provider-Settings umbenannt
+- Einige Texte aktualisiert
+- Neues Artwork eingebunden !</news>
+		<news lang="en">- New provider : Stream.to
+- Updated provider Sezonlukdizi
+- New fanart background
+- Fix issue with "My Lists" setting
+- Fix provider Flimmerstube/Horrorkino
+- Relabelled provider settings
+- Updated some strings
+- Integrated new artwork set !</news>
 		</extension>
 	</addon>
 
@@ -67,7 +67,7 @@
 		</extension>
 	</addon>
 
-	<addon id="script.lastship.artwork" version="1.0.6" name="Lastship Artwork" provider-name="Lastship">
+	<addon id="script.lastship.artwork" version="2.0.0" name="Lastship Artwork" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0"/>
 		</requires>
@@ -75,6 +75,7 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>Themes for the Lastship Addon</summary>
 			<description>Themes for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+			<news>-New Lastship artwork sets !</news>
 			<platform>all</platform>
 		</extension>
 	</addon>
