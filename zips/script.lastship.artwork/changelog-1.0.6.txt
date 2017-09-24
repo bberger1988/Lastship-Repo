@@ -1,3 +1,34 @@
+[B]2.0.0[/B]
+- Rename Media Subfolder and make Final Version
+
+[B]1.0.6.7[/B]
+- In Exuary Folder remove old icons and add new icons
+- in lastship folder imdb icon changed
+
+[B]1.0.6.6[/B]
+- Change Logo Colour at network icon
+- Change Trakt Icon
+
+[B]1.0.6.5[/B]
+- Make fanart lager 1920x1080
+
+[B]1.0.6.4[/B]
+- Change Fanart.png to Fanart.jpg in resources Folder
+
+[B]1.0.6.3[/B]
+- Make Genre Icons Larger
+
+[B]1.0.6.2[/B]
+- box office, film icon larger
+- Genre Icon Changed, bigger Icons
+- new-tvshow Icon, bigger text "Neu"
+- Add "IMDb Icon" to Userlist Icon
+
+[B]1.0.6.1[/B]
+- Create New Lastship Icons
+- Remove Genesis Icons and insert Exodus Icons in this Folder
+- Changed Fanart in Main Folder
+
 [B]1.0.6[/B]
 - Replaced Exodus and Genesis icons
 
