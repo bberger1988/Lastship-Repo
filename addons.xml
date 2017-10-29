@@ -73,7 +73,7 @@
 		</extension>
 	</addon>
 
-	<addon id="script.lastship.artwork" version="2.0.0" name="Lastship Artwork" provider-name="Lastship">
+	<addon id="script.lastship.artwork" version="2.0.1" name="Lastship Artwork" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0"/>
 		</requires>
@@ -81,7 +81,7 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>Themes for the Lastship Addon</summary>
 			<description>Themes for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
-			<news>-New Lastship artwork sets !</news>
+			<news>-Add Exuary Icons</news>
 			<platform>all</platform>
 		</extension>
 	</addon>
