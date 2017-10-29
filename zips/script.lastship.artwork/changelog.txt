@@ -1,3 +1,6 @@
+[B]2.0.1[/B]
+- Add Exuary Icons (Wishes from users)
+
 [B]2.0.0[/B]
 - Rename Media Subfolder and make Final Version
 
