@@ -5,7 +5,6 @@
 - Exuary kann als Erscheinungsbild ausgewählt werden
 - Neue Englische Index Seiten hinzugefügt: Icefilms, Openloadmovies, Series9, 123netflix
 - cfscrape erstellt (Cloudflare Scraper)
-- Update source.py (Beim Durchsuchen der Index Seiten wird jetzt auch angezeigt, welche Stream Auflösungen zur Verfügung stehen)
 - Update Index Seite Alluc-de
 - Fix foxx.to (Danke an Philps)
 
