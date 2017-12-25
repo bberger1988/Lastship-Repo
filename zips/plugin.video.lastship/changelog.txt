@@ -1,5 +1,5 @@
 [B]1.2.6.1[/B]
-- Settings fix (tata, stream.to, streamdream entfernt
+- Settings fix (tata, stream.to, streamdream entfernt)
 
 [B]1.2.6[/B]
 - Irreführende/Falsche Anzeige bei der Streamsuche behoben (Danke petemei)
