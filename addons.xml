@@ -33,7 +33,19 @@
 			<news lang="de">- settings fix</news>
 		</extension>
 	</addon>
-
+	
+	<addon id="script.module.lastship" name="Lastship Module" version="1.0.0" provider-name="LastShip">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+			<summary lang="en">lastship</summary>
+			<description>Viel Spaß mit LastShip</description>
+		</extension>
+	</addon>
+	
 	<addon id="repository.lastship" name="Lastship Repository" version="1.0.1" provider-name="Lastship">
 		<extension point="xbmc.addon.repository" name="Lastship Repository">
 		<dir>
