@@ -1,3 +1,10 @@
+[B]2.0.0[/B]
+- Aufteilung von plugin.video.lastship in 2 Module:
+  script.module.lastship
+  plugin.video.lasthip
+- settings Anpassung an die neue Aufteilung
+- string.po Anpassung (alles im/ab 32700 Kreis ist Lastship spezifisch)
+
 [B]1.2.6.1[/B]
 - Settings fix (tata, stream.to, streamdream entfernt)
 
