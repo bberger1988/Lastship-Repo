@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.lastship" version="1.2.6.1" name="Lastship" provider-name="Lastship">
+	<addon id="plugin.video.lastship" version="2.0.0" name="Lastship" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0" />
 			<import addon="repository.lastship" version="1.0.1" />
+			<import addon="script.module.lastship" />
 			<import addon="script.lastship.artwork" version="1.0.4" />
 			<import addon="script.lastship.metadata" version="1.0.0" />
 			<import addon="script.module.urlresolver" version="3.0.0" />
@@ -30,7 +31,12 @@
 				<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 			</assets>
-			<news lang="de">- settings fix</news>
+			<news lang="de">- Aufteilung von plugin.video.lastship in 2 Module:
+  			script.module.lastship
+  			plugin.video.lasthip
+			- settings Anpassung an die neue Aufteilung
+			- string.po Anpassung
+  			</news>
 		</extension>
 	</addon>
 	
