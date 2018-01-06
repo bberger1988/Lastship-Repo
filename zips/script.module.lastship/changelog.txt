@@ -1,8 +1,16 @@
+[B]1.0.1[/B]
+- cfscraper Update
+- hdstreams update
+- video4k entfernt (Weiterleitung auf cine.to)
+
 [B]1.0.0[/B]
 - Aufteilung von plugin.video.lastship in 2 Module:
   script.module.lastship
   plugin.video.lasthip
 - settings Anpassung an die neue Aufteilung
 - serienstream.to entfernt (Loginproblem konnte bisher nicht gelöst werden)
-- Fix hdstreams (nur Filme möglich)
-- cfscraper Update
+- Fix Suche Personen/Darsteller
+- Fix IMDb Listen
+- URLResolver Einstellungen unter Werkzeug zu finden
+- Such-Ergebinsse werden gespeichert, können auch gelöscht werden
+- nicht ausgestrahlte Episoden werden Farblich (Rot) angezeigt
