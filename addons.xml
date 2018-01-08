@@ -40,7 +40,7 @@
 		</extension>
 	</addon>
 	
-	<addon id="script.module.lastship" name="Lastship Module" version="1.0.1" provider-name="LastShip">
+	<addon id="script.module.lastship" name="Lastship Module" version="1.0.2" provider-name="LastShip">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 		</requires>
@@ -50,9 +50,9 @@
 			<summary lang="en">lastship</summary>
 			<description>Viel Spaß mit LastShip</description>
 			<news lang="de">
-			- cfscraper Update
-			- hdstreams update
-			- video4k entfernt (Weiterleitung auf cine.to)
+			- Fix login Problem Serienstream
+                        - client.py optimiert
+                        - Update library.py
 			</news>
 		</extension>
 	</addon>
