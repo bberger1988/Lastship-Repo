@@ -1,3 +1,8 @@
+[B]1.0.2[/B]
+- Fix login Problem Serienstream
+- client.py optimiert
+- Update library.py
+
 [B]1.0.1[/B]
 - cfscraper Update
 - hdstreams update
