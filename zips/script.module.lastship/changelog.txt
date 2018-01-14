@@ -1,3 +1,7 @@
+[B]1.0.3[/B]
+- Add Option Flashx Captcha Pairing Abfrage zu deaktivieren
+- Update navigator.py, Anzeige von News und Updates in Lastship
+
 [B]1.0.2[/B]
 - Fix login Problem Serienstream
 - client.py optimiert
