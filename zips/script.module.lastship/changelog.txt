@@ -1,9 +1,55 @@
+[B]1.0.4[/B]
+- Trakt Bibliothek automatisch Synchronisieren
+- Fix Umlaute Suche	
+- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
+- Update jsunpack.py
+- movies.py
+- tvshows.py
+- libtools optimiert (Fehler Behebung)
+- Update cache.py und navigator.py
+- tata wieder hinzugefügt (nur Filme)
+- Update hdfilme
+- Update hdstreams
+
+[B]1.0.4~nightly10[/B]
+- tata wieder hinzugefügt (nur Filme)
+
+[B]1.0.4~nightly9[/B]
+- Fix Umlaute Suche (movies.py und tvshows.py)
+
+[B]1.0.4~nightly8[/B]
+ - cache.py  (Zeile 169 cache clear search) + Zeile 240 cache_clear_search()
+- Navigator.py Zeile 256 & 257 Umbenennung von clearemetacache auf clearcachemeta und clearcacheall
+- Navigator.py: in allen def clear cache Funktionen den Eintrag  from resources.lib.modules import cache entfernt da schon in Zeile 29 importiert wird
+
+[B]1.0.4~nightly7[/B]
+- Update jsunpack
+
+[B]1.0.4~nightly6[/B]
+- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
+	- movies.py
+	- navigator.py
+
+[B]1.0.4~nightly5[/B]
+- libtools optimiert (Fehler Behebung)
+
+[B]1.0.4~nightly4[/B]
+- movies.py (Zeile 117 und 118, imdblist_link)
+
+[B]1.0.4~nightly3[/B]
+- Add Trakt Collections AutoSync
+	- control.py
+	- libtools.py
+- Update jsunpack.py
+- movies.py
+- tvshows.py
+
 [B]1.0.3.1[/B]
 - Bugfix whatsnew
 
 [B]1.0.3[/B]
 - Add Option Flashx Captcha Pairing Abfrage zu deaktivieren
-- Update navigator.py, Anzeige von News und Updates in Lastship
+- Update navigator.py (News und Updates aktiviert und base64 link eingefügt)
 
 [B]1.0.2[/B]
 - Fix login Problem Serienstream
@@ -26,3 +72,6 @@
 - URLResolver Einstellungen unter Werkzeug zu finden
 - Such-Ergebinsse werden gespeichert, können auch gelöscht werden
 - nicht ausgestrahlte Episoden werden Farblich (Rot) angezeigt
+
+
+
