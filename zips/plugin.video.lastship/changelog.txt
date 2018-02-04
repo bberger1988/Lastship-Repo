@@ -1,10 +1,19 @@
+[B]2.0.3[/B]
+
+- Update Einstellungen (Settings)
+- Trakt Bibliothek automatisch Synchronisieren
+- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
+- Update lastship.py
+- tata wieder hinzugefügt (nur Filme)
+- video4k aus den settings entfernt
+
 [B]2.0.2.1[/B]
-- Bugfix whatsnew
+-Bugfix whatsnew
 
 [B]2.0.2[/B]
-- Anzeige von News und Updates
-- Update TMDb Key
-
+- Add News und Updates Anzeige
+- Update TMDB Key	
+	
 [B]2.0.1[/B]
 - Serienstream hinzugefügt, Fix Login Problem
 
@@ -14,9 +23,9 @@
   plugin.video.lasthip
 - settings Anpassung an die neue Aufteilung
 - string.po Anpassung (alles im/ab 32700 Kreis ist Lastship spezifisch)
-
+  
 [B]1.2.6.1[/B]
-- Settings fix (tata, stream.to, streamdream entfernt)
+- Settings Fix (tata, stream.to und streamdream entfernt)
 
 [B]1.2.6[/B]
 - Irreführende/Falsche Anzeige bei der Streamsuche behoben (Danke petemei)
@@ -47,8 +56,10 @@
 - Exuary kann als Erscheinungsbild ausgewählt werden
 - Neue Englische Index Seiten hinzugefügt: Icefilms, Openloadmovies, Series9, 123netflix
 - cfscrape erstellt (Cloudflare Scraper)
+- source.py (angepasst an das requests module)  
+- player.py (angepasst an foxx.py)
 - Update Index Seite Alluc-de
-- Fix foxx.to (Danke an Philps)
+- Fix foxx.to (Danke an Philps), script.module.requests erforderlich, wird automatisch mit installiert
 
 [B]1.2.2[/B]
 - Film Trailer werden jetzt in Deutsch abgespielt, wenn Deutsch als Info-Sprache eingestellt ist; Danke an nokodemus
