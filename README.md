@@ -1,3 +1,4 @@
 # Lastship-Repo
-Wir pflegen primär nur deutsche Indexseiten und freuen uns über neue Entwickler
+
+FAQ befindet sich hier: https://github.com/lastship/FAQ/blob/master/Lastship_FAQ.md
 
