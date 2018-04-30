@@ -1,3 +1,8 @@
+[B]2.0.8[/B]
+  30.04.2018
+- TMDB Suche Update
+- Geschwindigkeits Verbesserung 
+
 [B]2.0.7[/B]
   28.03.2018
 - Update Settings.xml (Trakt)

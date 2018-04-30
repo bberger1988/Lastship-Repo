@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.lastship" version="2.0.7" name="Lastship" provider-name="Lastship">
+	<addon id="plugin.video.lastship" version="2.0.8" name="Lastship" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0" />
 			<import addon="repository.lastship" version="1.0.1" />
@@ -31,15 +31,14 @@
 				<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 			</assets>
-			<news lang="de">- add tmovie
-- Update Settings.xml (Trakt)
-- add kinoger
-- add Funktion Fehlerhafte Provider erkennen
+			<news lang="de">
+			- TMDB Suche Update
+			- Geschwindigkeits Verbesserung 
   			</news>
 		</extension>
 	</addon>
 	
-	<addon id="script.module.lastship" name="Lastship Module" version="1.0.6.6" provider-name="LastShip">
+	<addon id="script.module.lastship" name="Lastship Module" version="1.0.6.7" provider-name="LastShip">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 		</requires>
@@ -48,14 +47,16 @@
 		<platform>all</platform>
 			<summary lang="en">lastship</summary>
 			<description>Viel Spaß mit LastShip</description>
-			<news lang="de">- Update serienstream auf neue Domain
-- add tmovie und update tmovie
-- add kinoger
-- Update source_faultlog
-- Update tata
-- Update cleantitle.py
-- add Funktion Fehlerhafte Provider erkennen und Update alle source_de
-- Update movie2k-sh 
+			<news lang="de">- cfscraper update
+- HDStreams Update
+- TMDB Suche Update
+- QuickFix 4K Quellen finden 
+- Fix kinow
+- Fix Foxx
+- Update Kinoger
+- Update view4u
+- Update movie4k (Add Serien und Suche optimiert)
+- Merged from Performance Branch
 			</news>
 		</extension>
 	</addon>
