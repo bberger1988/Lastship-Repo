@@ -1,3 +1,17 @@
+[B]2.0.8.2[/B]
+  08.06.2018
+- Update movie2k-sh
+- Add movie4k-lt
+- Alluc Konto entfernt
+- cine.to entfernt (Captcha)
+- Pure-Anime.tv (Seite gibt es nicht mehr)
+- Kategorie Kanäle (Channels) entfernt
+- bs.to (Captcha und API changed) und alluc.ee (Seite stillgelegt) entfernt
+- add vodhd
+- add movie-gg
+- add moovie
+- Update string.po
+
 [B]2.0.8.1[/B]
   01.05.2018
 - Profiling entfernt (Bug Fix)
