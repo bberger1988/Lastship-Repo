@@ -1,3 +1,24 @@
+[B]1.0.6.8[/B]
+  08.06.2018
+- Update foxx
+- Upate movie2k-sh (Neue Domain movie2k-sc)
+- Update movie4k
+- Add movie4k-lt
+-  Update animeloads
+- cine.to entfernt (Captcha)
+- Pure-Anime.tv (Seite gibt es nicht mehr)
+- Kategorie Kanäle (Channels) entfernt
+- bs.to (Captcha und API changed) und alluc.ee (Seite stillgelegt) entfernt
+- Update sources.py (VodHD als Premium erkennen)
+- Update VodHD 
+- Fix Serienstream
+- Fix Filme älter als 90 Tage (90 Day deleay)
+- Fix HidenCinema
+- Code Optimierung
+- add vodhd
+- add movie-gg
+- add moovie
+
 [B]1.0.6.7[/B]
   30.04.2018
 - cfscraper update
