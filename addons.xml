@@ -31,18 +31,18 @@
 				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 			</assets>
 			<news lang="de">- Rework auf Ursprungs Version, ein Modul, plugin.video.lastship
-							- Update VodHD
-							- Update Kinoger
-							- Add Cinematrix und Update
-							- Add and Update HDGO.py (Modules)
-							- Add Cinemaxx
-							- Add HDKino
-							- Add Amazon
-							- Update movietown (add cloudflare scraper)
-							- Update moovie
-							- Update HDFilme.tv
-							- Update Duckduckgo
-							- Seriesever entfernt, Seite Offline-Umleitung auf Moviesever
+					- Update VodHD
+					- Update Kinoger
+					- Add Cinematrix und Update
+					- Add and Update HDGO.py (Modules)
+					- Add Cinemaxx
+					- Add HDKino
+					- Add Amazon
+					- Update movietown (add cloudflare scraper)
+					- Update moovie
+					- Update HDFilme.tv
+					- Update Duckduckgo
+					- Seriesever entfernt, Seite Offline-Umleitung auf Moviesever
   			</news>
 		</extension>
 	</addon>
