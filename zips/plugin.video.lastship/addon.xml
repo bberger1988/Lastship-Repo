@@ -3,7 +3,6 @@
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.lastship" version="1.0.1" />
-		<import addon="script.module.lastship" />
 		<import addon="script.lastship.artwork" />
 		<import addon="script.lastship.metadata" />
 		<import addon="script.module.urlresolver" />
