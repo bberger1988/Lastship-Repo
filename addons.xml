@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.lastship" version="3.0.0" name="Lastship" provider-name="Lastship">
+	<addon id="plugin.video.lastship" version="3.0.1" name="Lastship" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0" />
 			<import addon="repository.lastship" version="1.0.2" />
@@ -30,19 +30,16 @@
 				<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 			</assets>
-			<news lang="de">- Rework auf Ursprungs Version, ein Modul, plugin.video.lastship
-					- Update VodHD
-					- Update Kinoger
-					- Add Cinematrix und Update
-					- Add and Update HDGO.py (Modules)
-					- Add Cinemaxx
-					- Add HDKino
-					- Add Amazon
-					- Update movietown (add cloudflare scraper)
-					- Update moovie
-					- Update HDFilme.tv
-					- Update Duckduckgo
-					- Seriesever entfernt, Seite Offline-Umleitung auf Moviesever
+			<news lang="de">- Update HDFilme
+						    - Update kinox
+						    - FaultLogging verbessert
+						    - FaultLogger Standard EIN (Fehler werden damit automatisch an den Forum Server gesendet, siehe dazu FAQ)
+						    - Update Emby (Wird immer als erster Anbieter angezeigt, extra Stream Info Video und Audio)
+						    - Update Emby (Fix Umlaut Suche)
+						    - VODHD Streama Scraper entfernt
+						    - Add allg. Emby Client implementation. Es werden alle Emby ( auch eigene ) Server via API supported
+						    - Update settings, string.po und sources.py
+						    - kinodogs entfernt
   			</news>
 		</extension>
 	</addon>
