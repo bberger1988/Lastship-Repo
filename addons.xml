@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.lastship" version="3.0.2.3" name="Lastship" provider-name="Lastship">
+	<addon id="plugin.video.lastship" version="3.0.2.4" name="Lastship" provider-name="Lastship">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0" />
 			<import addon="repository.lastship" version="1.0.2" />
 			<import addon="script.lastship.artwork" version="1.0.4" />
-			<import addon="script.lastship.metadata" version="1.0.0" />
 			<import addon="script.module.urlresolver" version="3.0.0" />
 			<import addon="script.module.metahandler" version="1.0.0" />
 			<import addon="script.module.requests" version="2.12.4"/>
@@ -31,11 +30,21 @@
 				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 			</assets>
 			<news lang="de">
-			- Update myjdownloader.py, recaptcha_app.py
-			- Add Captcha9kw
-			- Update HDStreams
-			- Add bs.to mit Recaptcha
-			- Fix Iload
+			- Add naninme
+			- Update HDKino (Add Duckduckgo)
+			- Fix Problem Suche in Kodi18
+			- Add cine.to mit ReCaptcha Funktion
+			- Fix fehlende Icons unter Linux
+			- Fix HDGO.py (Resolver)
+			- Update kinox (new domains)
+			- Cache optimiert
+			- Fix Trakt Autentifizierung
+			- add TwoCaptcha
+			- Update emby
+			- Fix Fortsetzungspunkt in Kodi18
+			- Fix angefangen/nicht beendete Episoden werden nicht angezeigt wenn IMDb Key verwendet wird
+			- Dependence script.lastship.metadata entfernt
+			- Fix duckduckgo (Provider werden oft geblockt)
   			</news>
 		</extension>
 	</addon>
@@ -91,18 +100,6 @@
 			<source>https://github.com/lastship/script.lastship.debug.log</source>
 			<news>- Addon renamed
 	- Translated to German</news>
-		</extension>
-	</addon>
-
-	<addon id="script.lastship.metadata" version="1.0.0" name="Lastship Metadata" provider-name="Lastship">
-		<requires>
-			<import addon="xbmc.python" version="2.19.0"/>
-		</requires>
-		<extension point="xbmc.python.module" library="lib" />
-		<extension point="xbmc.addon.metadata">
-			<summary>Metadata for the Lastship Addon</summary>
-			<description>Metadata for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
-			<platform>all</platform>
 		</extension>
 	</addon>
 
