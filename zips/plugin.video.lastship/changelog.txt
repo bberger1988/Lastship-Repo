@@ -1,3 +1,13 @@
+[B]3.0.2.5[/B]
+  18.10.2018
+- Übersetzungen des nicht in der string.py befindlichen Textes
+- Add Maxdome
+- Fix "Resume/Fortsetzen" anzeige
+- Fix, noch nicht ausgestrahlte Episoden in die Bibliothek aufnehmen
+- Ausgabe der Downloadanzeige optimiert
+- Fix Trakt Fortsetzungspunkt einstellen -> enabled wenn trakt konto eingestellt
+- Fix bookmark settings
+
 [B]3.0.2.4[/B]
   12.10.2018
 - Add naninme
