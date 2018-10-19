@@ -1,4 +1,4 @@
 # Lastship-Repo
 
-FAQ befindet sich im 
+FAQ befindet sich im Forum
 
